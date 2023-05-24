@@ -1,1 +1,35 @@
 <app-header titulo = "alerta"></app-header>
+
+<ion-content class="ion-padding">
+
+  <!--Alert normal-->
+
+  <ion-button (click)="presentAlert()" expand="block">
+    Alert
+  </ion-button>
+
+  <!-- Alert normal con dos o mas botones-->
+  <ion-button id="present-alert">Alert multi buttons</ion-button>
+  <ion-alert
+  trigger="present-alert"
+  header="Alert!"
+  [buttons]="alertButtons"
+  (didDismiss)="setResult($event)"
+  ></ion-alert>
+  <p>{{ handlerMessage}}</p>
+  <p>{{ roleMessage }}</p>
+
+  <ion-button (click)="presentInputAlert()" expand="block">
+    Alert
+  </ion-button>
+
+  <!-- Alert con multiples inputs
+  <ion-button id="present-alert-inputs">Alert inputs</ion-button>
+  <ion-alert
+  trigger="present-alert-inputs"
+  header="Please enter your info"
+  [buttons]="alertInputButtons"
+  [inputs]="alertInputs"
+  ></ion-alert> -->
+
+  </ion-content>
