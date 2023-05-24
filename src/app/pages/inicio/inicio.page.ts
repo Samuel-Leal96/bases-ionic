@@ -28,12 +28,16 @@ export class InicioPage {
       icon: 'beaker-outline',
       name: 'Avatar',
       redirectTo: '/avatar'
-    }
-    ,
+    },
     {
       icon: 'radio-button-off-outline',
       name: 'Buttons',
       redirectTo: '/buttons'
+    },
+    {
+      icon: 'card-outline',
+      name: 'Cards',
+      redirectTo: '/card'
     }
   ];
 
