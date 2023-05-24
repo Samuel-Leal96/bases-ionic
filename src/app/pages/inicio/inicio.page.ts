@@ -29,6 +29,12 @@ export class InicioPage {
       name: 'Avatar',
       redirectTo: '/avatar'
     }
+    ,
+    {
+      icon: 'radio-button-off-outline',
+      name: 'Buttons',
+      redirectTo: '/buttons'
+    }
   ];
 
 }
