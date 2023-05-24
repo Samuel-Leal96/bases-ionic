@@ -38,6 +38,11 @@ export class InicioPage {
       icon: 'card-outline',
       name: 'Cards',
       redirectTo: '/card'
+    },
+    {
+      icon: 'checkmark-circle-outline',
+      name: 'Cheks',
+      redirectTo: '/check'
     }
   ];
 

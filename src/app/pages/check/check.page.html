@@ -1,0 +1,20 @@
+<app-header titulo = "CheckBoxs"></app-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let item of items">
+      <ion-checkbox
+                    [color]="item.name"
+                    labelPlacement = "fixed"
+                    justify = "start"
+                    [(ngModel)]="item.selected"
+                    (ionChange)="onCheckboxChange(item)" >{{item.name}}</ion-checkbox>
+    </ion-item>
+  </ion-list>
+
+  <ion-button (click)="verData()" expand="block">
+    Show all data
+  </ion-button>
+
+</ion-content>
