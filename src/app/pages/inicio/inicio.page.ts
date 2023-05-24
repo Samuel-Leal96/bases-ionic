@@ -43,6 +43,11 @@ export class InicioPage {
       icon: 'checkmark-circle-outline',
       name: 'Cheks',
       redirectTo: '/check'
+    },
+    {
+      icon: 'calendar-outline',
+      name: 'DateTime',
+      redirectTo: '/date-time'
     }
   ];
 
