@@ -20,7 +20,7 @@ export class InicioPage {
       redirectTo: '/action-sheet'
     },
     {
-      icon: 'logo-apple-appstore',
+      icon: 'alert-circle-outline',
       name: 'Alert',
       redirectTo: '/alert'
     }
